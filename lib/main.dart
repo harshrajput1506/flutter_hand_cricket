@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:hand_cricket/card_stack_screen.dart';
 import 'package:hand_cricket/home_screen.dart';
 
 void main() {
@@ -12,6 +13,7 @@ class HandCricketGame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Hand Cricket',
       home: HomeScreen(),
     );
