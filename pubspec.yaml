@@ -72,6 +72,8 @@ flutter:
     - assets/images/menu_dots.svg
     - assets/images/menu.svg
     - assets/images/cricket_ball.svg
+    - assets/images/podium.png
+    - assets/images/wickets.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
